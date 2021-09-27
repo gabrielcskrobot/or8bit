@@ -3,7 +3,8 @@ import VueRouter from 'vue-router';
 
 import Home from '@/views/home.vue';
 import Contato from '@/views/contato.vue';
-
+import eventos from '@/views/eventos.vue';
+import inscricao from '@/views/inscricao.vue';
 const routes = [
     {
         path: '/',
@@ -16,7 +17,19 @@ const routes = [
         name: 'Contato',
         component: Contato,
         meta: {  }
-    }
+    },
+    {
+        path: '/eventos',
+        name: 'Eventos',
+        component: eventos,
+        meta: {  }
+    },
+    {
+        path: '/inscricao',
+        name: 'inscricao',
+        component: inscricao,
+        meta: {  }
+    },
 ]
 
 Vue.use(VueRouter);
