@@ -18,9 +18,6 @@
             <b-navbar-item href="#/contato">
                 Contato
             </b-navbar-item>
-            <b-navbar-item href="#/inscricao">
-                Inscrição
-            </b-navbar-item>
         </template>
         <template #end>
                     <b-navbar-item tag="div">

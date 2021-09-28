@@ -62,8 +62,6 @@
 </article>
 
 
-
-
 <div class="title has-text-primary">
         <h1>
             Eventos Finalizados
