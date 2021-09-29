@@ -1,6 +1,6 @@
 <template>
 <div>
-    <b-navbar>
+    <b-navbar> 
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
@@ -36,7 +36,6 @@
                         </div>
                     </b-navbar-item>
                 </template>    
-    
     </b-navbar>
      <b-modal
             v-model="isLoginModalActive"
@@ -65,3 +64,4 @@ export default {
     }
 }
 </script>
+

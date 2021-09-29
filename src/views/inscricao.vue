@@ -1,6 +1,8 @@
 <template>
 <div>
   <br>
+      <hr style="width: 400px; margin:auto" class="has-background-primary">
+  <br>
   <br>
 <div class="container is-max-desktop">
   <div class="notification is-primary has-text-centered">
@@ -11,6 +13,7 @@
 </div>
 <br>
 <br>
+
 <article class="media">
   <figure class="media-left">
     <p class="image is-64x64">
@@ -34,7 +37,6 @@
     <button class="delete"></button>
   </div>
 </article>
-
 <br>
 <br>
 
@@ -107,6 +109,8 @@
     <button class="button is-primary is-light">Cancelar</button>
   </div>
 </div>
-
+<br>
+      <hr style="width: 400px; margin:auto" class="has-background-primary">
+  
 </div>
 </template>
