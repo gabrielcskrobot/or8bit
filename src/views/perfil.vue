@@ -16,14 +16,13 @@
 <div class="block">
   <div class="column is-full">
       <div class="container">
-  <div class="notification is-primary has-text-centered">
+  <div class="notification is-info has-text-centered">
     <div class="title">
       Feed
     </div>
   </div>
 </div>
   </div>
-  
       <br>
     <article class="media">
   <figure class="media-left">
