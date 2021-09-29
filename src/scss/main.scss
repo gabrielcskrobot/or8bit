@@ -6,10 +6,11 @@ $gap: 0;
 
 // Set your colors
 $primary: #0FE8DB;
+$info: #170F34;
 $primary-light: findLightColor($primary);
 $primary-dark: findDarkColor($primary);
 $primary-invert: findColorInvert($primary);
-$twitter: #f88E4D;
+$twitter: #170F34;
 $twitter-invert: findColorInvert($twitter);
 
 // Lists and maps

@@ -1,5 +1,7 @@
 <template>
 <div>
+  <br>
+      <hr style="width: 400px; margin:auto" class="has-background-primary">
 <br>
 <br>
 <div class="container is-max-desktop">
@@ -65,5 +67,7 @@
   </div>
 </div>
 <br>
+<br>
+      <hr style="width: 400px; margin:auto" class="has-background-primary">
 </div>
 </template>

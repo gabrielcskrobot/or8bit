@@ -4,17 +4,17 @@
 <br>
 
  <div class="columns">
-  <div class="column">
+  <div class="column is-one-fifth">
   <figure class="image is-128x128">
   <img src="@/assets/perfil.png">
-    <div class="subtile has-text-left has-text-primary">
-        WS_ Lv- 100
+    <div class="subtile is-4 has-text-centered has-text-primary">
+        WS_ Lv: 100
     </div>
 </figure>
   </div>
   
 <div class="block">
-  <div class="column is-four-fifths ">
+  <div class="column is-full">
       <div class="container">
   <div class="notification is-primary has-text-centered">
     <div class="title">
@@ -23,8 +23,8 @@
   </div>
 </div>
   </div>
+  
       <br>
- <div class="block is">     
     <article class="media">
   <figure class="media-left">
     <p class="image is-64x64">
@@ -36,26 +36,27 @@
       <p>
         <strong>Campeonato Rocket League - </strong> <small>data 26/06/2021 </small> <small> - <strong>Finalizado</strong></small>
         <br>
-        WS_ foi campeão do campeonato de Rocket League em trios - PC, Xbox, Play Station, Nintendo Switch e ganhou <img src="@/assets/icone.png"> 500 Or8bitcoins.
+        WS_ foi campeão do campeonato de Rocket League em trios - PC, Xbox, Play Station, Nintendo Switch<br> e ganhou <img src="@/assets/icone.png"> 500 Or8bitcoins.
       </p>
     </div>
   </div>
     </article>
 </div>
 </div>
-</div>
+
 
 
 <div>
-  <div class="subtitle has-text-primary">
+  <div class="subtitle is-4 has-text-primary">
     Jogos Jogados
 <div class="columns">
-  <div class="column">
+  <div class="column ">
     <br>
     <figure class="image is-64x64">
     <img src="@/assets/rocketlogo.png">
     </figure>
 </div>
+
  <div class="column is-full">
    <br>
    <figure class="image is-64x64">
@@ -65,7 +66,6 @@
 </div>
 </div>
 </div>
-<br>
 <br>
 </div>  
 </template>

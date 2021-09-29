@@ -1,5 +1,8 @@
 <template>
     <div>
+      <br>
+      <hr style="width: 400px; margin:auto" class="has-background-primary">
+      <br>
         <div class="title has-text-primary">
         <h1>
             Próximos Eventos
@@ -60,8 +63,6 @@
     <button class="delete"></button>
   </div>
 </article>
-
-
 <div class="title has-text-primary">
         <h1>
             Eventos Finalizados
@@ -93,7 +94,8 @@
     <button class="delete"></button>
   </div>
 </article>
-
+<br>
+<hr style="width: 400px; margin:auto" class="has-background-primary">
 
 
     </div>

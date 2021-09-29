@@ -1,20 +1,21 @@
 <template>
-  <div class="mt-6 has-background-link-dark has-text-white">
+
+  <div class="mt-6 has-background-info has-text-white">
     <div class="container">
       <br>
-      <nav class="level has-background-link-dark has-text-white">
+      <nav class="level has-background-info has-text-white">
   <p class="level-item has-text-centered">
-    <a href="/#/contato" class="link is-info">Contato</a>
+    <a href="/#/contato" class="link is-primary">Contato</a>
   </p>
   <p class="level-item has-text-centered">
-    <a class="link is-info">Termos De Uso</a>
+    <a class="link is-primary">Termos De Uso</a>
   </p>
   <p class="level-item has-text-centered">
-    <a class="link is-info">Politicas de privacidade</a>
+    <a class="link is-primary">Politicas de Privacidade</a>
   </p>
 </nav>
 
-      <footer class="footer has-background-link-dark has-text-white has-text-centered">
+      <footer class="footer has-background-info has-text-white has-text-centered">
         <div class="collum">
         <div class="content has-text-centered">
           <p>
