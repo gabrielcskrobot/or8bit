@@ -5,6 +5,9 @@ import Home from '@/views/home.vue';
 import Contato from '@/views/contato.vue';
 import eventos from '@/views/eventos.vue';
 import inscricao from '@/views/inscricao.vue';
+import cadastro from '@/views/cadastro.vue';
+import finalizado from '@/views/finalizado.vue';
+import perfil from '@/views/perfil.vue';
 const routes = [
     {
         path: '/',
@@ -26,8 +29,26 @@ const routes = [
     },
     {
         path: '/inscricao',
-        name: 'inscricao',
+        name: 'Inscricao',
         component: inscricao,
+        meta: {  }
+    },
+    {
+        path: '/cadastro',
+        name: 'Cadastro',
+        component: cadastro,
+        meta: {  }
+    },
+    {
+        path: '/finalizado',
+        name: 'finalizado',
+        component: finalizado,
+        meta: {  }
+    },
+    {
+        path: '/perfil',
+        name: 'Perfil',
+        component: perfil,
         meta: {  }
     },
 ]

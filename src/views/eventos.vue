@@ -14,7 +14,7 @@
   <div class="media-content">
     <div class="content">
       <p>
-        <strong>Campeonato FIFA 21 - </strong> <small>data(21/10/2021) - das 19h às 21h - Participantes 10/12 - </small> <small>(icone)400</small>
+        <strong>Campeonato FIFA 21 - </strong> <small>data(21/10/2021) - das 19h às 21h - Participantes 10/12 -</small> <small><img src="@/assets/icone.png"> 400</small>
         <br>
         Campeonato FIFA 21 - Plays Station - Data(Primeiro dia, fases iniciais, 21/10/2021 - das 19h às 21h)(Segundo dia, fases finais, 22/10/2021 - das 19h às 21h) - Número Maximo de Equipes (16) - Numero Mínimo de Equipes (8) - 30 Or8bitcoins por pessoa.
       </p>
@@ -43,7 +43,7 @@
   <div class="media-content">
     <div class="content">
       <p>
-        <strong>Campenato Counter Strike - </strong> <small>data(20/10/2021) - das 19h às 21h - Equipes 10/16 - </small> <small>(icone)400</small>
+        <strong>Campenato Counter Strike - </strong> <small>data(20/10/2021) - das 19h às 21h - Equipes 10/16 - </small> <small> <img src="@/assets/icone.png"> 300</small>
         <br>
         Campeonato CSGO - Plataforma (PC) - Data(Primeiro dia, fases iniciais, 20/10/2021 - das 19h às 21h)(Segundo dia, fases finais, 22/10/2021 - das 19h às 21h) - Número Maximo de Equipes (16) - Numero Mínimo de Equipes (10) - 50 Or8bitcoins por equipe.
       </p>
@@ -76,13 +76,13 @@
   <div class="media-content">
     <div class="content">
       <p>
-        <strong>Campeonato Rocket League - </strong> <small>Data 26/06/2021 14h</small> <small> - Equipes 8/10 - (icone)400 - <strong>Finalizado</strong></small>
+        <strong>Campeonato Rocket League - </strong> <small>data 26/06/2021 14h</small> <small> - Equipes 8/10 - <img src="@/assets/icone.png"> 400 - <strong>Finalizado</strong></small>
         <br>
         Campeonato de Rocket League em trio - PC, Xbox, Play Station, Nintendo Switch - Dia 26/06/2021 às 14h - Número máximo de equipes (16) - Número mínimo de equipes (8) - 60 Or8bitcoins por equipe.
       </p>
     </div>
     <div class="has-text-right">
-            <b-button type="is-primary">Quero Me Increver</b-button>
+            <b-button tag="router-link" to="/finalizado" type="is-primary">Quero Me Increver</b-button>
     </div>
     <nav class="level is-mobile">
       <div class="level-left">

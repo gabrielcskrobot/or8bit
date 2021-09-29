@@ -13,11 +13,12 @@
     <a class="link is-info">Politicas de privacidade</a>
   </p>
 </nav>
+
       <footer class="footer has-background-link-dark has-text-white has-text-centered">
         <div class="collum">
         <div class="content has-text-centered">
           <p>
-            Criado por
+            Or8bit por
             Alunos 4º período do curso de Negócios Digitais da
             <a href="https://fae.edu" target="_blank">FAE Centro Universitário</a>
           </p>

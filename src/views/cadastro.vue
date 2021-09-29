@@ -1,44 +1,17 @@
 <template>
-<div>
-  <br>
-  <br>
+  <div>
+<br>
+<br>
 <div class="container is-max-desktop">
   <div class="notification is-primary has-text-centered">
     <div class="title">
-    Campeonato de FIFA 21 - Inscrição
+    Criando sua conta Or8bit - Seja Bem Vindo
     </div>
   </div>
 </div>
 <br>
 <br>
-<article class="media">
-  <figure class="media-left">
-    <p class="image is-64x64">
-      <img src="@/assets/fifalogo.png">
-    </p>
-  </figure>
-  <div class="media-content">
-    <div class="content">
-      <p>
-        <strong>Campeonato FIFA 21 - <small>data(21/10/2021) - das 19h às 21h - Participantes 10/12 - </small> <small><img src="@/assets/icone.png"> 400 </small></strong>
-        <br>
-        O campeonato de FIFA 21, ocorrerá nos dias 21 e 22 de outubro de 2021, das 19h até às 21h. No primeiro dia acontecerão as fases iniciais do torneiro, no segundo dia, as fases finais. O número mínimo de players necessários para que os jogos aconteçam é de 8, e o máximo 16, caso não seja atinjido o número mínimo de playes, o torneio será cancelado, e os Or8bitcoins serão devolvidos para aqueles que já estiverem inscritos A taxa de inscrição para o torneio é de 40 Or8bitcoins. <strong>Se inscreva preenchendo o formulario abaixo.</strong>
-      </p>
-    </div>
-    <nav class="level is-mobile">
-      <div class="level-left">
-      </div>
-    </nav>
-  </div>
-  <div class="media-right">
-    <button class="delete"></button>
-  </div>
-</article>
-
-<br>
-<br>
-
-<div class="field">
+    <div class="field">
   <label class="label has-text-primary">Nome Completo</label>
   <div class="control">
     <input class="input" type="text" placeholder="Digite aqui">
@@ -73,19 +46,21 @@
   <p class="help is-danger">Este e-mail não é valido</p>
 </div>
 
-<div class="field">
-  <label class="label has-text-primary">Nome do Time</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="Digite aqui">
-  </div>
-</div>
-
+<b-field label="Senha">
+                    <b-input
+                        type="password"
+                        :value="password"
+                        password-reveal
+                        placeholder="Sua senha"
+                        required>
+                    </b-input>
+                </b-field>
 
 <div class="field">
   <div class="control">
     <label class="checkbox">
       <input type="checkbox">
-      Eu concordo com os <a href="#">termos e condições</a>
+      Eu concordo com os <a href="#">termos e condições.</a>
     </label>
   </div>
 </div>
@@ -94,7 +69,7 @@
   <div class="control">
     <label class="checkbox">
       <input type="checkbox">
-      Em concordo em receber notificações sobre novos campeonatos por E-mail
+      Eu concordo em receber notificações sobre novos campeonatos e outros eventos por E-mail.
     </label>
   </div>
 </div>
@@ -107,6 +82,6 @@
     <button class="button is-primary is-light">Cancelar</button>
   </div>
 </div>
-
-</div>
+<br>
+  </div>
 </template>

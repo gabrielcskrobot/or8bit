@@ -1,21 +1,29 @@
 <template>
 <div>
-    <div>
-    <section class="section">
-        <h1 class="title has-text-primary has-text-centered">Entre em contato com a Or8bit</h1>
-    </section>
+<br>
+<br>
+<div class="container is-max-desktop">
+  <div class="notification is-primary has-text-centered">
+    <div class="title">
+    Entre em contato com a Or8bit
+    </div>
   </div>
+</div>
+
+<br>
+<br>
+
   <div class="field">
   <label class="label">Nome</label>
   <div class="control">
-    <input class="input" type="text" placeholder="Text input">
+    <input class="input" type="text" placeholder="Digite aqui">
   </div>
 </div>
 
 <div class="field">
   <label class="label">E-mail</label>
   <div class="control has-icons-left has-icons-right">
-    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+    <input class="input is-danger" type="email" placeholder="Digite o e-mail aqui" value="hello@">
     <span class="icon is-small is-left">
       <i class="fas fa-envelope"></i>
     </span>
@@ -44,17 +52,18 @@
 <div class="field">
   <label class="label">Mensagem</label>
   <div class="control">
-    <textarea class="textarea" placeholder="Textarea"></textarea>
+    <textarea class="textarea" placeholder="Escreva aqui"></textarea>
   </div>
 </div>
 
 <div class="field is-grouped">
   <div class="control">
-    <button class="button is-primary">Submit</button>
+    <button class="button is-primary">Enviar</button>
   </div>
   <div class="control">
-    <button class="button is-primary is-light">Cancel</button>
+    <button class="button is-primary is-light">Cancelar</button>
   </div>
 </div>
+<br>
 </div>
 </template>

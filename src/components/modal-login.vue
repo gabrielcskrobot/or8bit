@@ -9,11 +9,11 @@
                     @click="$emit('close')"/>
             </header>
             <section class="modal-card-body">
-                <b-field label="E-mail">
+                <b-field label="E-mail/Nick">
                     <b-input
                         type="email"
                         :value="email"
-                        placeholder="Seu e-mail"
+                        placeholder="Seu e-mail/Nick"
                         required>
                     </b-input>
                 </b-field>

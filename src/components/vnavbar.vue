@@ -19,7 +19,15 @@
                 Contato
             </b-navbar-item>
         </template>
+
         <template #end>
+                    <b-navbar-item tag="div">
+                        <div class="buttons">
+                            <a href="/#/cadastro" class="button is-primary is-light">
+                                Crie Sua Conta
+                            </a>
+                        </div>
+                    </b-navbar-item>
                     <b-navbar-item tag="div">
                         <div class="buttons">
                             <a class="button is-primary" @click="isLoginModalActive = true">
@@ -27,7 +35,8 @@
                             </a>
                         </div>
                     </b-navbar-item>
-                </template>        
+                </template>    
+    
     </b-navbar>
      <b-modal
             v-model="isLoginModalActive"
